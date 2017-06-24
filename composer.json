@@ -1,0 +1,21 @@
+{
+    "name": "adhocore/fsb",
+    "description": "Simple benchmarking for PHP7",
+    "type": "library",
+    "keywords": ["bench", "benchmark"],
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "Jitendra Adhikari",
+            "email": "jiten.adhikary@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ahc\\Fsb\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+}
