@@ -83,7 +83,7 @@ class Bench
 
     private static function verdict(array $stat, string $pad = '  ')
     {
-        $metrics = static::METRICS;
+        $metrics    = static::METRICS;
         $labelWidth = max(array_map('strlen', array_merge(...array_values($metrics))));
 
         foreach ($metrics as $key => $labels) {
