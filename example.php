@@ -1,5 +1,14 @@
 <?php
 
+/*
+ * This file is part of the FSB package.
+ *
+ * (c) Jitendra Adhikari <jiten.adhikary@gmail.com>
+ *     <https//:github.com/adhocore>
+ *
+ * Licensed under MIT license.
+ */
+
 use Ahc\Fsb\Bench;
 
 require_once __DIR__ . '/src/Bench.php';
