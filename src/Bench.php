@@ -111,7 +111,7 @@ class Bench
         echo "\nPowered by FSB <https://github.com/adhocore/fsb>\n\n";
     }
 
-    private static function stat() : array
+    private static function stat(): array
     {
         return [
             'time'        => microtime(true),
